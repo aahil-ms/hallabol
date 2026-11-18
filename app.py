@@ -414,25 +414,7 @@ if menu == "👑 The Royal Pavilion (Overview)":
         </div>
         """, unsafe_allow_html=True)
 
-    # Canva generated asset link banner
-    st.markdown("""
-    <div class="glass-card" style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1.4rem; padding:0.8rem 1.4rem; border:1px solid #ffd700;">
-        <div style="display:flex; align-items:center; gap:12px;">
-            <span style="font-size:1.5rem;">🎨</span>
-            <div>
-                <b style="color:#ffd700;">Canva Official Design Generated:</b>
-                <span style="color:#cbd5e1; font-size:0.85rem;"> Custom Rajasthan Royals Photorealistic Stadium Creative is ready on Canva.</span>
-            </div>
-        </div>
-        <div>
-            <a href="https://www.canva.com/M/MAHbRc_sV9U?utm_source=OC-AZb1vOWcedZR&utm_campaign=agent_connector_create_image_asset_opened" target="_blank" style="text-decoration:none;">
-                <span class="halla-bol-badge" style="background:linear-gradient(90deg, #ffd700, #ff007f); color:#0b0f19;">
-                    Open generated image ↗
-                </span>
-            </a>
-        </div>
-    </div>
-    """, unsafe_allow_html=True)
+
 
     # Big 4 Metric KPIs
     c1, c2, c3, c4 = st.columns(4)
