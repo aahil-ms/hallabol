@@ -288,6 +288,14 @@ def style_plotly_rr(fig):
     return fig
 
 
+# ── Safe Dataframe Styler (Guards against missing matplotlib on cloud) ─────────
+def safe_styled_df(df, subset, cmap):
+    try:
+        return df.style.background_gradient(subset=subset, cmap=cmap)
+    except Exception:
+        return df
+
+
 # ── Spider Radar Function (Pink vs Gold) ──────────────────────────────────────
 def build_radar_rr(r1, r2, p1_name, p2_name, role="batting"):
     if role == "batting":
@@ -663,7 +671,7 @@ elif menu == "🏏 Batting Pressure Arena":
     show_cols = ["player_name", "team_name", "total_runs", "balls_faced", "strike_rate",
                  "batting_avg", "boundary_pct", "sr_death", "consistency_pct", "superr_score"]
     st.dataframe(
-        df_b[show_cols].style.background_gradient(subset=["superr_score"], cmap="RdPu"),
+        safe_styled_df(df_b[show_cols], ["superr_score"], "RdPu"),
         use_container_width=True, height=350
     )
 
@@ -744,7 +752,7 @@ elif menu == "⚾ Bowling Pressure Matrix":
     show_cols_w = ["player_name", "team_name", "innings_bowled", "balls_bowled", "wickets",
                    "economy", "bowling_avg", "dot_ball_pct", "econ_death", "superr_score"]
     st.dataframe(
-        df_w[show_cols_w].style.background_gradient(subset=["superr_score"], cmap="YlGnBu"),
+        safe_styled_df(df_w[show_cols_w], ["superr_score"], "YlGnBu"),
         use_container_width=True, height=350
     )
 
@@ -859,7 +867,7 @@ elif menu == "🎛️ Live ML Formula Studio":
 
     st.markdown("### 🏆 Recomputed Top 10 Batters (Custom Philosophy)")
     st.dataframe(
-        top10_custom.style.background_gradient(subset=["custom_score"], cmap="RdPu"),
+        safe_styled_df(top10_custom, ["custom_score"], "RdPu"),
         use_container_width=True
     )
 
