@@ -50,7 +50,7 @@ st.markdown(f"""
     /* Base Stadium Atmosphere with Transparent Night Stadium Overlay */
     .stApp {{
         background-image: 
-            linear-gradient(180deg, rgba(3, 6, 20, 0.88) 0%, rgba(38, 6, 45, 0.90) 45%, rgba(2, 4, 14, 0.96) 100%),
+            linear-gradient(180deg, rgba(3, 6, 20, 0.60) 0%, rgba(38, 6, 45, 0.65) 45%, rgba(2, 4, 14, 0.75) 100%),
             url("https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?q=80&w=2000&auto=format&fit=crop"),
             url("data:image/svg+xml;base64,{STADIUM_BG_B64}");
         background-size: cover, cover, cover;
