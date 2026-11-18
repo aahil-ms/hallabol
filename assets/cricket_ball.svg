@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <radialGradient id="ballGrad" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#ff4b5c"/>
+      <stop offset="45%" stop-color="#c9182b"/>
+      <stop offset="85%" stop-color="#730a15"/>
+      <stop offset="100%" stop-color="#3d0309"/>
+    </radialGradient>
+    <linearGradient id="seamGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#e8e8e8"/>
+      <stop offset="100%" stop-color="#a6a6a6"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <radialGradient id="shine" cx="30%" cy="25%" r="35%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.6"/>
+      <stop offset="60%" stop-color="#ffffff" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Shadow -->
+  <ellipse cx="200" cy="370" rx="140" ry="22" fill="#000000" opacity="0.45" filter="blur(6px)"/>
+
+  <!-- Main Ball Body -->
+  <circle cx="200" cy="190" r="160" fill="url(#ballGrad)"/>
+  
+  <!-- Light Shine Reflection -->
+  <circle cx="200" cy="190" r="160" fill="url(#shine)"/>
+
+  <!-- Left Seam Track -->
+  <path d="M 120 45 C 170 110, 185 240, 140 335" stroke="#4a040b" stroke-width="8" fill="none" opacity="0.7"/>
+
+  <!-- Raised Primary Seam -->
+  <path d="M 123 45 C 173 110, 188 240, 143 335" stroke="url(#seamGrad)" stroke-width="5" fill="none" stroke-linecap="round"/>
+
+  <!-- Stitches along Seam -->
+  <g stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" opacity="0.95">
+    <line x1="117" y1="55" x2="132" y2="52"/>
+    <line x1="125" y1="80" x2="141" y2="76"/>
+    <line x1="134" y1="108" x2="151" y2="103"/>
+    <line x1="143" y1="138" x2="161" y2="132"/>
+    <line x1="151" y1="170" x2="169" y2="165"/>
+    <line x1="155" y1="202" x2="173" y2="198"/>
+    <line x1="155" y1="235" x2="173" y2="233"/>
+    <line x1="152" y1="268" x2="169" y2="268"/>
+    <line x1="144" y1="300" x2="160" y2="303"/>
+    <line x1="134" y1="325" x2="148" y2="330"/>
+  </g>
+
+  <!-- Gold Ring Accent for SupeRR -->
+  <circle cx="200" cy="190" r="160" stroke="#ffd700" stroke-width="2" fill="none" opacity="0.3"/>
+</svg>

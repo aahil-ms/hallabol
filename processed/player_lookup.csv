@@ -1,0 +1,1083 @@
+player_id,team_id,player_name,team_name
+8,1,Mahendra Singh Dhoni,Chennai Super Kings
+23,2,Piyush Chawla,Mumbai Indians
+28,3508,Ishant Sharma,Delhi Capitals
+47,5,Virat Kohli,India
+88,7,Faf du Plessis,Royal Challengers Bengaluru
+109,3508,Wriddhiman Saha,Gujarat Titans
+126,2,Rohit Sharma,India
+142,4,Shikhar Dhawan,Punjab Kings
+143,5,Dinesh Karthik,Royal Challengers Bengaluru
+147,3508,Pradeep Sangwan,Gujarat Titans
+152,3,Ravindra Jadeja,Chennai Super Kings
+158,3509,Amit Mishra,Lucknow Super Giants
+161,1,Dwayne Bravo,Chennai Super Kings
+167,8,Ajinkya Rahane,Kolkata Knight Riders
+169,1,Robin Uthappa,Chennai Super Kings
+198,8,Manish Pandey,Lucknow Super Giants
+220,7,David Warner,Delhi Capitals
+223,20,Steven Smith,Australia
+232,24,Tom Cooper,Netherlands
+250,20,Aaron Finch,Australia
+274,17,Martin Guptill,New Zealand
+278,17,Tim Southee,Kolkata Knight Riders
+286,20,Kane Richardson,Australia
+295,5,Wayne Parnell,South Africa
+305,1,Ravichandran Ashwin,Rajasthan Royals
+332,27,Angelo Mathews,Sri Lanka
+344,8,Sheldon Jackson,Kolkata Knight Riders
+360,18,Bhuvneshwar Kumar,India
+393,5,Kedar Jadhav,Royal Challengers Bengaluru
+395,2,Karn Sharma,Royal Challengers Bengaluru
+403,3508,Umesh Yadav,Kolkata Knight Riders
+418,26,Richard Berrington,Scotland
+443,23,Paul Stirling,Ireland
+470,25,Mohammad Amir,Pakistan
+478,22,Eoin Morgan,England
+479,22,Adil Rashid,England
+492,28,Andre Fletcher,West Indies
+494,2,Kieron Pollard,West Indies
+499,21,Shakib Al Hasan,Bangladesh
+505,21,Mushfiqur Rahim,Bangladesh
+507,21,Mohammad Mahmudullah,Bangladesh
+535,1,Ambati Rayudu,Chennai Super Kings
+722,22,Liam Dawson,England
+728,22,Dawid Malan,England
+757,24,Sybrand Engelbrecht,Netherlands
+768,19,Reeza Hendricks,South Africa
+772,4,Rilee Rossouw,South Africa
+773,315,Shadley Van Schalkwyk,United States Of America
+778,28,Darren Bravo,West Indies
+781,8,Sunil Narine,Kolkata Knight Riders
+786,22,Chris Jordan,England
+796,3508,Matthew Wade,Australia
+813,22,Jos Buttler,Rajasthan Royals
+818,20,Mitchell Marsh,Delhi Capitals
+820,3,Nathan Coulter Nile,Rajasthan Royals
+829,7,Mitchell Starc,Australia
+830,5,Josh Hazlewood,Australia
+838,20,Glenn Maxwell,Australia
+914,3509,Krishnappa Gowtham,Lucknow Super Giants
+930,7,Karun Nair,Rajasthan Royals
+953,7,Lokesh Rahul,India
+985,72,Brendan Taylor,Zimbabwe
+988,72,Graeme Cremer,Zimbabwe
+992,5,Mayank Agarwal,Punjab Kings
+1028,3508,Varun Aaron,Gujarat Titans
+1039,8,Mandeep Singh,Delhi Capitals
+1040,4,Harpreet Bhatia,Punjab Kings
+1045,8,David Wiese,Kolkata Knight Riders
+1071,242,Jaydev Unadkat,Mumbai Indians
+1077,7,David Miller,Gujarat Titans
+1100,27,Dinesh Chandimal,Sri Lanka
+1101,23,George Dockrell,Ireland
+1107,78,Mohammad Nabi,Kolkata Knight Riders
+1109,78,Samiullah Shinwari,Afghanistan
+1116,72,Craig Ervine,Zimbabwe
+1159,72,Tendai Chatara,Zimbabwe
+1171,4,Chris Woakes,England
+1183,22,Alex Hales,Kolkata Knight Riders
+1187,8,Jason Roy,England
+1195,1,Ben Stokes,England
+1205,2,Jonny Bairstow,Punjab Kings
+1210,22,James Vince,England
+1219,3509,David Willey,Royal Challengers Bengaluru
+1233,72,Gary Ballance,Zimbabwe
+1318,28,Andre Russell,Kolkata Knight Riders
+1327,28,Johnson Charles,West Indies
+1389,20,Sean Abbott,Sunrisers Hyderabad
+1440,8,Rahul Tripathi,Sunrisers Hyderabad
+1481,27,Kusal Perera,Sri Lanka
+1487,17,Adam Milne,Chennai Super Kings
+1541,72,Sean Williams,Zimbabwe
+1556,242,David Payne,England
+1566,3509,Mohammed Shami,Gujarat Titans
+1568,3508,Kane Williamson,Sunrisers Hyderabad
+1596,8,Moeen Ali,England
+1612,4,Yuzvendra Chahal,India
+1617,4,Rishi Dhawan,Punjab Kings
+1649,72,Regis Chakabva,Zimbabwe
+1699,2,Suryakumar Yadav,India
+1701,5,Swapnil Singh,Lucknow Super Giants
+1758,242,Patrick Cummins,Australia
+1772,28,Sheldon Cottrell,West Indies
+1791,24,Wesley Barresi,Netherlands
+1801,315,Nitish Kumar,United States Of America
+1810,28,Devon Thomas,West Indies
+1813,2,Deepak Chahar,India
+1924,8,Sam Billings,England
+1941,17,Devon Conway,Chennai Super Kings
+1944,2,Keshav Maharaj,South Africa
+2001,3674,Yashodha Lanka,Sri Lanka A
+2003,27,Bhanuka Rajapaksa,Punjab Kings
+2054,20,Jason Behrendorff,Royal Challengers Bengaluru
+2101,2,Quinton de Kock,Lucknow Super Giants
+2210,21,Sabbir Rahman,Bangladesh
+2213,21,Soumya Sarkar,Bangladesh
+2214,78,Gulbadin Naib,Afghanistan
+2218,21,Anamul Haque,Bangladesh
+2246,17,Tom Latham,New Zealand
+2249,21,Taijul Islam,Bangladesh
+2258,18,Sanju Samson,Rajasthan Royals
+2261,242,Harshal Patel,India
+2293,89,Junaid Siddiqui,Canada
+2296,26,Safyaan Sharif,Scotland
+2304,22,Tymal Mills,England
+2315,2,Reece Topley,England
+2320,2,Trent Boult,Rajasthan Royals
+2321,22,Olly Stone,England
+2334,1,Dwaine Pretorius,Chennai Super Kings
+2351,27,Danushka Gunathilaka,Sri Lanka
+2359,19,Prenelan Subrayen,South Africa
+2361,19,Temba Bavuma,South Africa
+2364,20,Ashton Agar,Australia
+2367,242,Travis Head,Australia
+2373,3509,Ashton Turner,Australia
+2379,22,Ben Duckett,England
+2382,22,Jamie Overton,England
+2386,27,Niroshan Dickwella,Sri Lanka
+2399,27,Dushmantha Chameera,Sri Lanka
+2407,27,Dhananjaya de Silva,Sri Lanka
+2411,3,Sandeep Sharma,Punjab Kings
+2412,315,Smit Patel,United States Of America
+2416,28,Kyle Mayers,West Indies
+2417,28,Akeal Hosein,West Indies
+2418,28,Justin Greaves,West Indies
+2436,27,Dasun Shanaka,Sri Lanka
+2439,27,Akila Dananjaya,Sri Lanka
+2463,72,Ryan Burl,Zimbabwe
+2467,72,NP Mayavo,Zimbabwe
+2483,19,Lizaad Williams,South Africa
+2485,25,Babar Azam,Pakistan
+2490,25,Mohammad Nawaz,Pakistan
+2523,17,Will Young,New Zealand
+2526,17,Ish Sodhi,New Zealand
+2531,3,Joe Root,Rajasthan Royals
+2533,78,Najibullah Zadran,Afghanistan
+2534,78,Rahmat Shah,Afghanistan
+2573,28,Evin Lewis,Lucknow Super Giants
+2633,28,Jason Holder,West Indies
+2636,20,Adam Zampa,Australia
+2639,4,Marcus Stoinis,Australia
+2650,28,Raymon Reifer,West Indies
+2661,28,Shamarh Brooks,West Indies
+2671,21,Liton Das,Bangladesh
+2680,21,Nurul Hasan,Bangladesh
+2681,21,Taskin Ahmed,Bangladesh
+2687,28,Roston Chase,West Indies
+2750,20,Alex Carey,Australia
+2756,4,Shashank Singh,Sunrisers Hyderabad
+2790,4,Praveen Dubey,Delhi Capitals
+2847,2,Shardul Thakur,India
+2852,242,Jagadeesha Suchith,Sunrisers Hyderabad
+2860,8,KS Bharat,Delhi Capitals
+2862,242,Sachin Baby,Sunrisers Hyderabad
+2863,3508,Sandeep Warrier,Mumbai Indians
+2872,5,Siddarth Kaul,Royal Challengers Bengaluru
+2876,18,Axar Patel,India
+2877,1,Vijay Shankar,Gujarat Titans
+2878,7,Mohit Sharma,Gujarat Titans
+2884,3509,Manan Vohra,Lucknow Super Giants
+2887,315,Harmeet Singh,United States Of America
+2892,25,Asif Ali,Pakistan
+2921,25,Fakhar Zaman,Pakistan
+2930,19,Rassie van der Dussen,Rajasthan Royals
+2933,18,Jasprit Bumrah,Mumbai Indians
+2972,283,Yasim Murtaza,Hong Kong
+2984,72,Sikandar Raza,Zimbabwe
+2985,22,Mark Wood,Lucknow Super Giants
+2996,24,Stephanus Myburgh,Netherlands
+2997,24,Paul van Meekeren,Netherlands
+3024,25,Mohammad Rizwan,Pakistan
+3033,25,Usman Qadir,Pakistan
+3038,25,Hussain Talat,Pakistan
+3040,272,Kashif Daud,United Arab Emirates
+3056,25,Iftikhar Ahmed,Pakistan
+3077,25,Usama Mir,Pakistan
+3091,25,Sahibzada Farhan,Pakistan
+3097,25,Shan Masood,Pakistan
+3125,3509,Nicholas Pooran,West Indies
+3135,28,Yannic Cariah,West Indies
+3144,5,Thomas Curran,Royal Challengers Bengaluru
+3174,17,Matt Henry,New Zealand
+3238,315,Milind Kumar,United States Of America
+3253,272,Rohan Mustafa,United Arab Emirates
+3255,272,Ahmed Raza 1,United Arab Emirates
+3260,78,Hashmatullah Shahidi,Afghanistan
+3272,28,Fabian Allen,West Indies
+3275,28,Alzarri Joseph,Gujarat Titans
+3276,28,Gudakesh Motie,West Indies
+3280,21,Nazmul Hossain Shanto,Bangladesh
+3281,21,Mosaddek Hossain,Bangladesh
+3282,21,Mehidy Hasan Miraz,Bangladesh
+3285,3093,Abu Haider,Bangladesh A
+3297,28,Shimron Hetmyer,Rajasthan Royals
+3298,22,Jofra Archer,Mumbai Indians
+3299,3509,Andrew Tye,Lucknow Super Giants
+3304,21,Munim Shahriar,Bangladesh
+3306,78,Afsar Zazai,Afghanistan
+3320,3508,Jayant Yadav,Gujarat Titans
+3323,17,Jimmy Neesham,Rajasthan Royals
+3330,2,Hardik Pandya,Gujarat Titans
+3337,89,Jeremy Gordon,Canada
+3361,26,Michael Leask,Scotland
+3373,283,Aizaz Khan,Hong Kong
+3374,17,Mark Chapman,New Zealand
+3377,283,Babar Hayat,Hong Kong
+3382,283,Nizakat Khan,Hong Kong
+3383,283,Kinchit Shah,Hong Kong
+3415,26,Matthew Cross,Scotland
+3445,313,Khalid Kail,Oman
+3451,8,Baba Indrajith,Kolkata Knight Riders
+3469,1,Shreyas Gopal,Sunrisers Hyderabad
+3489,25,Salman Agha,Pakistan
+3539,20,Ben McDermott,Australia
+3543,78,Shahidullah Kamal,Afghanistan
+3544,78,Usman Ghani,Afghanistan
+3545,78,Ihsanullah Janat,Afghanistan
+3550,78,Sharafuddin Ashraf,Afghanistan
+3578,25,Imad Wasim,Pakistan
+3595,23,Andy McBrine,Ireland
+3605,3509,Aiden Markram,Sunrisers Hyderabad
+3613,313,Shakeel Ahmed,Oman
+3622,28,Hayden Walsh,West Indies
+3623,25,Hasan Ali,Pakistan
+3627,19,Andile Phehlukwayo,South Africa
+3628,3508,Kagiso Rabada,Punjab Kings
+3629,2,Corbin Bosch,Rajasthan Royals
+3635,19,Jason Smith,South Africa
+3637,19,Dayyaan Galiem,South Africa
+3639,28,Brandon King,West Indies
+3641,4,Ben Dwarshuis,Australia
+3644,18,Kuldeep Yadav,India
+3645,1,Sarfaraz Khan,Delhi Capitals
+3647,18,Shreyas Iyer,India
+3648,1,Deepak Hooda,India
+3651,7,Ricky Bhui,Delhi Capitals
+3653,3509,Avesh Khan,India
+3660,22,Luke Wood,England
+3664,27,Binura Fernando,Sri Lanka
+3669,27,Sadeera Samarawickrama,Sri Lanka
+3672,27,Kusal Mendis,Sri Lanka
+3673,3674,Ramesh Mendis,Sri Lanka
+3683,26,Gavin Main,Scotland
+3686,26,CB Sole,Scotland
+3689,26,Mark Watt,Scotland
+3697,17,Kyle Jamieson,Chennai Super Kings
+3700,17,Tim Seifert,Delhi Capitals
+3720,23,Craig Young,Ireland
+3727,1,Matthew Short,Punjab Kings
+3771,24,Vivian Kingma,Netherlands
+3772,24,Logan van Beek,Netherlands
+3775,282,Sompal Kami,Nepal
+3782,3508,M Shahrukh Khan,Punjab Kings
+3802,283,Anshuman Rath,Hong Kong
+3832,311,Rezza Gaznavi,Singapore
+3839,311,Amjad Mahboob,Singapore
+3849,312,Ali Zaheer,Kuwait
+3856,313,Zeeshan Maqsood,Oman
+3858,313,Jatinder Singh,Oman
+3871,313,Aamir Kaleem,Oman
+3876,313,Sufyan Mehmood,Oman
+3882,315,Steven Taylor,United States Of America
+3916,5,Jitesh Sharma,Punjab Kings
+3926,3508,Rahul Tewatia,Gujarat Titans
+3954,23,Andrew Balbirnie,Ireland
+3967,3,Tom Kohler,Rajasthan Royals
+3986,20,Matthew Renshaw,Australia
+3995,72,Donald Tiripano,Zimbabwe
+4007,2,Ryan Rickelton,South Africa
+4077,2,KL Shrijith,Mumbai Indians
+4101,17,Mitchell Santner,Chennai Super Kings
+4102,26,George Munsey,Scotland
+4106,17,Daryl Mitchell,Rajasthan Royals
+4111,25,Khushdil Shah,Pakistan
+4117,18,Ishan Kishan,India
+4201,78,Fareed Malik,Afghanistan
+4211,4,Vishnu Vinod,Sunrisers Hyderabad
+4219,5,Krunal Pandya,Lucknow Super Giants
+4221,20,Chris Green,Australia
+4227,20,Marnus Labuschagne,Australia
+4229,3509,George Linde,South Africa
+4235,1,Sisanda Magala,Chennai Super Kings
+4237,19,Tabraiz Shamsi,South Africa
+4246,7,Nitish Rana,Kolkata Knight Riders
+4248,89,Pargat Singh,Canada
+4260,242,Heinrich Klaasen,South Africa
+4265,7,T Natarajan,Sunrisers Hyderabad
+4276,2,Basil Thampi,Mumbai Indians
+4288,8,Navdeep Saini,Rajasthan Royals
+4369,28,Shai Hope,West Indies
+4372,21,Rony Talukder,Bangladesh
+4373,21,Mustafizur Rahman,Delhi Capitals
+4391,242,Liam Livingstone,England
+4409,22,Sam Curran,England
+4412,24,Max ODowd,Netherlands
+4417,282,Karan KC,Nepal
+4438,315,Jasdeep Singh,United States Of America
+4450,313,Mehran Khan,Oman
+4458,22,AHT Donald,England
+4460,27,Jeffrey Vandersay,Sri Lanka
+4486,3508,BR Sharath,Gujarat Titans
+4487,4,Vyshak Kumar,Royal Challengers Bengaluru
+4489,18,Prasidh Krishna,Rajasthan Royals
+4494,242,Abhinav Manohar,Gujarat Titans
+4499,22,Saqib Mahmood,England
+4505,7,Jhye Richardson,Australia
+4588,89,Navneet Dhaliwal,Canada
+4604,20,Mitchell Swepson,Australia
+4636,19,Bjorn Fortuin,South Africa
+4639,72,Wellington Masakadza,Zimbabwe
+4641,7,Lungi Ngidi,Delhi Capitals
+4658,21,Nasum Ahmed,Bangladesh
+4662,17,Cole McConchie,New Zealand
+4663,17,Henry Nicholls,New Zealand
+4665,17,Tom Blundell,New Zealand
+4684,17,Dane Cleaver,New Zealand
+4686,17,Joshua Clarkson,New Zealand
+4692,17,Lockie Ferguson,Gujarat Titans
+4695,17,Nick Kelly,New Zealand
+4703,3509,Rishabh Pant,India
+4708,18,Rinku Singh,Kolkata Knight Riders
+4716,5,Mayank Dagar,Sunrisers Hyderabad
+4722,78,Rashid Khan,Gujarat Titans
+4730,315,Ali Khan,United States Of America
+4736,20,Josh Inglis,Australia
+4755,18,Shivam Dube,Chennai Super Kings
+4773,21,Jaker Ali Anik,Bangladesh
+4779,19,Pieter Willem Mulder,South Africa
+4780,21,Mohammad Saif Hassan,Bangladesh A
+4784,19,Tony de Zorzi,South Africa
+4790,19,Lutho Sipamla,South Africa
+4793,17,Dean Foxcroft,New Zealand
+4802,23,Stephen Doheny,Ireland
+4807,23,Joshua Little,Ireland
+4812,23,Harry Tector,Ireland
+4814,23,Lorcan Tucker,Ireland
+4815,23,Benjamin White,Ireland
+4816,1,Khaleel Ahmed,Delhi Capitals
+4817,242,Anmolpreet Singh,Mumbai Indians
+4821,2,Mahipal Lomror,Royal Challengers Bengaluru
+4823,18,Washington Sundar,India
+4824,242,Zeeshan Ansari,Sunrisers Hyderabad
+4826,22,George Garton,England
+4830,28,Keacy Carty,West Indies
+4833,28,Jyd Goolie,West Indies
+4837,28,Obed McCoy,Rajasthan Royals
+4838,28,Keemo Paul,West Indies
+4840,28,Odean Smith,West Indies
+4842,28,Shamar Springer,West Indies
+4847,17,Finn Allen,Royal Challengers Bengaluru
+4853,17,Glenn Phillips,Sunrisers Hyderabad
+4854,8,Rachin Ravindra,New Zealand
+4856,17,Benjamin Sears,New Zealand
+4857,17,Nathan Smith,New Zealand
+4867,72,Wesley Madhevere,Zimbabwe
+4870,72,Kundai Matigimu,Zimbabwe
+4871,72,Brandon Mavuta,Zimbabwe
+4874,72,Richard Ngarava,Zimbabwe
+4876,72,Milton Shumba,Zimbabwe
+4880,282,Aarif Sheikh,Nepal
+4881,282,Dipendra Airee,Nepal
+4882,282,Kushal Bhurtel,Nepal
+4887,282,Sandeep Lamichhane,Nepal
+4895,27,Charith Asalanka,Sri Lanka
+4900,27,Wanindu Hasaranga,Sri Lanka
+4901,27,Asitha Fernando,Sri Lanka
+4902,27,Avishka Fernando,Sri Lanka
+4903,27,Lahiru Kumara,Sri Lanka
+4904,27,Kamindu Mendis,Sri Lanka
+4926,25,Shadab Khan,Pakistan
+4947,27,Kasun Rajitha,Sri Lanka
+4970,283,Adil Mehmood,Hong Kong
+4974,313,Mohammad Nadeem,Oman
+4983,24,Sikander Zulfiqar,Netherlands
+4986,28,Rovman Powell,West Indies
+5029,3509,Prerak Mankad,Punjab Kings
+5034,3,Murugan Ashwin,Mumbai Indians
+5039,5,Rajat Patidar,Royal Challengers Bengaluru
+5041,7,Mukesh Kumar,India
+5189,25,Faheem Ashraf,Pakistan
+5231,28,Oshane Thomas,West Indies
+5379,23,Mark Adair,Ireland
+5441,23,Barry McCarthy,Ireland
+5547,315,Nosthush Kenjige,United States Of America
+5553,22,Phil Salt,England
+5561,26,Brad Wheal,Scotland
+5562,5,Richard Gleeson,England
+5577,3508,Sai Kishore,Gujarat Titans
+5608,8,Narayan Jagadeesan,Chennai Super Kings
+5665,2,Sanjay Yadav,Mumbai Indians
+5738,20,Xavier Bartlett,Australia
+5749,283,Shahid Wasif,Hong Kong
+5750,283,Ehsan Khan,Hong Kong
+5808,78,Karim Janat,Afghanistan
+5809,78,Naveen ul Haq,Afghanistan
+5837,21,Mahedi Hasan,Bangladesh
+5839,21,Yasir Ali Chowdhury,Bangladesh
+5844,21,Ebadot Hossain,Bangladesh
+5866,19,Patrick Kruger,South Africa
+5877,315,Andries Gous,United States Of America
+5882,21,Afif Hossain,Bangladesh
+5892,17,Blair Tickner,New Zealand
+5928,7,Prithvi Shaw,Delhi Capitals
+5939,20,Cameron Green,Australia
+5940,20,Riley Meredith,Mumbai Indians
+5944,3508,Mohammed Siraj,India
+5977,28,Khary Pierre,West Indies
+5979,25,Abrar Ahmed,Pakistan
+6025,17,Henry Shipley,New Zealand
+6035,272,Chirag Suri,United Arab Emirates
+6059,1,Ruturaj Gaikwad,India
+6097,242,Brydon Carse,England
+6160,27,Chamika Karunaratne,Sri Lanka
+6161,1,Rahul Chahar,Punjab Kings
+6162,3508,Kulwant Khejroliya,Kolkata Knight Riders
+6166,20,Jack Edwards,Sunrisers Hyderabad
+6172,27,Lasith Croospulle,Sri Lanka
+6179,3674,Nipun Ransika,Sri Lanka A
+6180,27,Praveen Jayawickrama,Sri Lanka
+6188,23,Simi Singh,Ireland
+6196,22,Josh Tongue,England
+6203,311,Surendran Chandramohan,Singapore
+6226,24,Fred Klaassen,Netherlands
+6237,3509,Manimaran Siddharth,Lucknow Super Giants
+6256,18,Varun Chakravarthy,Kolkata Knight Riders
+6263,89,Aaditya AVaradarajan,Canada
+6272,22,William Jacks,England
+6273,22,Tom Banton,England
+6280,22,Harry Brook,England
+6281,18,Abhishek Sharma,Sunrisers Hyderabad
+6284,8,Anukul Roy,Kolkata Knight Riders
+6285,1,Kamlesh Nagarkoti,Delhi Capitals
+6286,242,Shivam Mavi,Kolkata Knight Riders
+6287,18,Yash Thakur,Lucknow Super Giants
+6288,3508,Shubman Gill,Gujarat Titans
+6297,22,Matthew Parkinson,England
+6314,5,Devdutt Padikkal,Rajasthan Royals
+6342,3509,Matthew Breetzke,South Africa
+6350,20,Matthew Kuhnemann,Australia
+6354,20,Spencer Johnson,Australia
+6355,25,Shaheen Afridi,Pakistan
+6356,21,Khaled Ahmed,Bangladesh
+6359,2,Raghu Sharma,Mumbai Indians
+6389,21,Tanvir Islam,Bangladesh
+6395,20,Josh Philippe,Australia
+6396,20,Tim David,Mumbai Indians
+6398,20,Aaron Hardie,Australia
+6423,3,Riyan Parag,Rajasthan Royals
+6428,242,Upendra Yadav,Sunrisers Hyderabad
+6433,78,Darwish Rasooli,Afghanistan
+6436,78,Qais Ahmad,Afghanistan
+6440,25,Omair Yousuf,Pakistan
+6441,25,Abdullah Shafique,Pakistan
+6443,341,Rohail Nazir,Pakistan A
+6448,78,Ibrahim Zadran,Afghanistan
+6449,78,Wafadar Momand,Afghanistan
+6450,78,Mujeeb Ur Rahman,Afghanistan
+6457,1,Urvil Patel,Gujarat Titans
+6460,3509,Ayush Badoni,Lucknow Super Giants
+6461,2,Mayank Rawat,Mumbai Indians
+6464,18,Arshdeep Singh,Punjab Kings
+6466,242,Atharwa Taide,Punjab Kings
+6467,3508,Anuj Rawat,Royal Challengers Bengaluru
+6473,3674,Nuwanidu Fernando,Sri Lanka
+6483,3674,Nishan Madushka,Sri Lanka A
+6486,222,Tanush Kotian,Rajasthan Royals
+6487,7,Priyam Garg,Sunrisers Hyderabad
+6488,2,Harvik Desai,Mumbai Indians
+6489,7,Darshan Nalkande,Gujarat Titans
+6492,3509,Aryan Juyal,Mumbai Indians
+6494,5,Manoj Bhandage,Royal Challengers Bengaluru
+6503,272,Zahoor Khan,United Arab Emirates
+6506,25,Mohammad Imran Randhawa,Pakistan
+6512,17,Michael Bracewell,New Zealand
+6514,24,Anil Nidamanuru,Netherlands
+6515,17,Benjamin Lister,New Zealand
+6518,20,Daniel Sams,Australia
+6523,72,Blessing Muzarabani,Zimbabwe
+6526,3509,Himmat Singh,Lucknow Super Giants
+6565,17,Katene Clarke,New Zealand
+6566,17,Matthew John Fisher,New Zealand
+6574,28,Alick Athanaze,West Indies
+6591,3,KM Asif,Chennai Super Kings
+6628,242,Gerald Coetzee,South Africa
+6643,21,Hasan Mahmud,Bangladesh
+6644,21,Mahidul Ankon,Bangladesh
+6645,21,Mohammad Sheikh,Bangladesh
+6651,21,Towhid Hridoy,Bangladesh
+6654,4,Tanay Thyagarajan,Punjab Kings
+6664,72,Dion Myers,Zimbabwe
+6669,3509,Mohsin Khan,Lucknow Super Giants
+6671,7,Lalit Yadav,Delhi Capitals
+6674,78,Rahmanullah Gurbaz,Gujarat Titans
+6676,78,Azmatullah Omarzai,Afghanistan
+6677,25,Mohammad Hasnain,Pakistan
+6683,2,Mayank Markande,Mumbai Indians
+6697,2,Shams Mulani,Mumbai Indians
+6705,283,Scott McKechnie,Hong Kong
+6725,28,Sherfane Rutherford,Royal Challengers Bengaluru
+6726,28,Romario Shepherd,West Indies
+6727,22,Zak Crawley,England
+6739,28,Amir Jangoo,West Indies
+6764,313,Bukkapatnam Siddharth,Oman
+6772,8,Chetan Sakariya,Delhi Capitals
+6783,25,Azam Khan,Pakistan
+6784,283,Hassan Mohammad,Hong Kong
+6795,28,Terrance Hinds,West Indies
+6797,28,Dominic Drakes,West Indies
+6806,3,Tushar Deshpande,Chennai Super Kings
+6819,3,Yashasvi Jaiswal,Rajasthan Royals
+6881,24,Scott Edwards,Netherlands
+6900,26,Michael Jones,Scotland
+6919,23,Tyrone Kane,Ireland
+6922,25,Abdul Samad,Pakistan A
+6926,22,Matty Potts,England
+6931,27,Pathum Nissanka,Sri Lanka
+6932,27,Pramod Madushan,Sri Lanka
+6984,24,Saqib Zulfiqar,Netherlands
+6985,24,Bas de Leede,Netherlands
+6995,89,Saad Zafar,Canada
+7001,89,Dilon Heyliger,Canada
+7002,89,Nicholas Kirton,Canada
+7003,89,Rayyan Pathan,Canada
+7008,22,Gus Atkinson,England
+7044,22,Jamie Smith,England
+7046,72,Tinashe Kamunhukamwe,Zimbabwe
+7049,27,Kamil Mishara,Sri Lanka
+7052,27,Dunith Wellalage,Sri Lanka
+7059,4,Nehal Wadhera,Mumbai Indians
+7060,3509,Arjun Tendulkar,Mumbai Indians
+7094,23,Curtis Campher,Ireland
+7120,282,Rohit Paudel,Nepal
+7134,8,Luvnith Sisodia,Royal Challengers Bengaluru
+7140,19,Senuran Muthusamy,South Africa
+7152,78,Hazratullah Zazai,Afghanistan
+7155,27,Sahan Arachchige,Sri Lanka A
+7197,242,Jhatavedh Subramanyan,Sunrisers Hyderabad
+7201,283,Haroon Arshad,Hong Kong
+7216,18,Prabhsimran Singh,Punjab Kings
+7227,78,Nijat Masood,Afghanistan
+7240,78,FazalHaq Farooqi,Sunrisers Hyderabad
+7241,78,Ziaur Rahman,Afghanistan
+7250,1,Mukesh Choudhary,Chennai Super Kings
+7260,3,Dhruv Jurel,Rajasthan Royals
+7269,3,Sushant Mishra,Sunrisers Hyderabad
+7270,3509,Anrich Nortje,Delhi Capitals
+7279,2,Atharva Ankolekar,Mumbai Indians
+7304,242,Sanvir Singh,Sunrisers Hyderabad
+7312,3,Nandre Burger,South Africa
+7322,5,Yash Dayal,Gujarat Titans
+7325,4,Harpreet Brar,Punjab Kings
+7327,5,Rasikh Salam,Kolkata Knight Riders
+7338,341,Haider Ali,Pakistan
+7341,20,Jake McGurk,Australia
+7344,21,Shoriful Islam,Bangladesh
+7354,3093,Al Alis,Bangladesh
+7355,25,Tayyab Tahir,Pakistan
+7364,25,Haris Rauf,Pakistan
+7403,282,Lalit Rajbanshi,Nepal
+7406,272,Rizwan CP,United Arab Emirates
+7409,282,Sundeep Jora,Nepal
+7446,3509,Abdul Samad,Sunrisers Hyderabad
+7472,3509,Shahbaz Ahmed,Royal Challengers Bengaluru
+7473,3509,Akash Deep,Royal Challengers Bengaluru
+7498,8,Abhijeet Tomar,Kolkata Knight Riders
+7503,18,Ravi Bishnoi,India
+7533,242,Simarjeet Singh,Chennai Super Kings
+7534,8,Sarthak Ranjan,Kolkata Knight Riders
+7544,5,Venkatesh Iyer,India
+7545,3,Kuldeep Sen,Rajasthan Royals
+7548,2,Shivalik Sharma,Mumbai Indians
+7553,7,Ajay Mandal,Chennai Super Kings
+7566,72,Ben Curran,Zimbabwe
+7574,3,Kumar Kartikeya Singh,Mumbai Indians
+7625,18,Suryansh Shedge,Lucknow Super Giants
+7634,315,Aaron Jones,United States Of America
+7689,27,Dilshan Madushanka,Sri Lanka
+7690,25,Saim Ayub,Pakistan
+7692,25,Qasim Akram,Pakistan A
+7696,25,Mohammad Wasim,Pakistan
+7699,25,Abbas Afridi,Pakistan
+7702,27,Chamindu Wickramasinghe,Sri Lanka
+7704,27,Pavan Rathnayake,Sri Lanka A
+7708,3674,Kavindu Nadeeshan,Sri Lanka A
+7709,72,Ainsley Ndlovu,Zimbabwe
+7710,24,Brandon Glover,Netherlands
+7741,23,Gareth Delany,Ireland
+7744,22,Jordan Cox,England
+7755,89,Harsh Thaker,Canada
+7756,89,Kaleem Sana,Canada
+7761,89,Ravinderpal Singh,Canada
+7808,4,Marco Jansen,Sunrisers Hyderabad
+7894,72,Tony Munyonga,Zimbabwe
+7896,3509,Akash Singh,Chennai Super Kings
+7897,18,Namboori Tilak Varma,Mumbai Indians
+7900,21,Tanzid Hasan,Bangladesh
+7901,21,Parvez Emon,Bangladesh
+7903,21,Shamim Hossain,Bangladesh
+7904,3093,Mohammad Chowdhury,Bangladesh A
+7905,21,Tanzim Sakib,Bangladesh
+7906,3093,Rakibul Hasan,Bangladesh
+7908,3093,Mohammad Akbar Ali,Bangladesh A
+7911,26,Oliver Hairs,Scotland
+7912,24,Vikramjit Singh,Netherlands
+7914,24,Clayton Floyd,Netherlands
+7915,315,Monank Patel,United States Of America
+7916,28,Karima Gore,West Indies
+7920,20,Nathan Ellis,Punjab Kings
+7924,282,Kushal Malla,Nepal
+7925,311,Rohan Rangarajan,Singapore
+7926,311,Manpreet Singh,Singapore
+7927,311,Janak Prakash,Singapore
+7928,311,Vinoth Baskaran,Singapore
+7929,311,Aryaman Sunil Uchil,Singapore
+7931,311,Aritra Dutta,Singapore
+7935,283,Mohammad Ghazanfar,Hong Kong
+7937,313,Wasim Ali,Oman
+7938,313,Sandeep Goud 1,Oman
+7940,313,Aqib Ilyas,Oman
+7942,313,Jay Odedara,Oman
+7945,283,Nasrulla Rana,Hong Kong
+7966,4444,Farmanullah Safi,Afghanistan A
+7967,78,Noor Ahmad,Gujarat Titans
+7978,72,Johnathan Campbell,Zimbabwe
+7981,4444,Imran Mir,Afghanistan A
+8005,272,Zawar Farid,United Arab Emirates
+8009,272,Junaid Siddique,United Arab Emirates
+8014,311,Avi Dixit,Singapore
+8015,313,Kaleemullah,Oman
+8029,4444,Sadiqullah Pacha,Afghanistan A
+8033,4444,Abdul Rahmani,Afghanistan A
+8040,7,Ripal Patel,Delhi Capitals
+8049,25,Naseem Shah,Pakistan
+8085,5,Suyash Prabhudessai,Royal Challengers Bengaluru
+8093,20,Nikhil Chaudhary,Australia
+8101,7,Ashutosh Sharma,Punjab Kings
+8140,3,Abid Mangnoo,Rajasthan Royals
+8141,7,Auqib Nabi,Delhi Capitals
+8177,1,Akash Madhwal,Mumbai Indians
+8182,3,Donovan Ferreira,Rajasthan Royals
+8217,272,Ansh Tandon,United Arab Emirates
+8221,18,Nitish Reddy,Sunrisers Hyderabad
+8238,7,Sameer Rizvi,Chennai Super Kings
+8241,282,Lokesh Bam,Nepal
+8251,18,Kumar Kushagra,Delhi Capitals
+8266,7,Sumit Kumar 1,Delhi Capitals
+8295,28,Matthew Forde,West Indies
+8298,28,Ramon Simmonds,West Indies
+8301,272,Asif Khan,United Arab Emirates
+8311,22,Dan Mousley,England
+8326,28,Jayden Seales,West Indies
+8329,22,Scott Currie,England
+8380,21,Mohammad Rishad Hossain,Bangladesh
+8388,3674,Ahan Wickramasinghe,Sri Lanka A
+8389,17,Jayden Lennox,New Zealand
+8405,89,Kanwarpal Tathgur,Canada
+8408,89,Shreyas Movva,Canada
+8424,20,Tanveer Sangha,Australia
+8530,8,Kartik Tyagi,Sunrisers Hyderabad
+8580,3,Yudhvir Singh,Lucknow Super Giants
+8600,72,Tadiwanashe Marumani,Zimbabwe
+8611,17,Adithya Ashok,New Zealand
+8614,3509,William ORourke,New Zealand
+8623,17,Kristian Clarke,New Zealand
+8632,222,Aaqib Khan,India A
+8634,2,Ashwani Kumar,Mumbai Indians
+8637,272,Vriitya Aravind,United Arab Emirates
+8638,272,Basil Hameed,United Arab Emirates
+8639,272,Kartik Meiyappan,United Arab Emirates
+8647,78,Sediqullah Atal,Afghanistan
+8652,78,Mohammad Ishaq,Afghanistan
+8654,20,Cooper Connolly,Australia
+8661,8,Matheesha Pathirana,Chennai Super Kings
+8664,72,Victor Nyauchi,Zimbabwe
+8719,272,Aryan Lakra,United Arab Emirates
+8723,272,Mohammed Faraazuddin,United Arab Emirates
+8726,272,Alishan Sharafu,United Arab Emirates
+8727,272,Sanchit Sharma,United Arab Emirates
+8729,272,Haider Shah,United Arab Emirates
+8739,341,Muhammad Irfan,Pakistan
+8741,25,Mohammad Haris,Pakistan
+8743,341,Muhammad Shehzad,Pakistan A
+8746,8,Vaibhav Arora,Punjab Kings
+8763,2,Duan Jansen,Mumbai Indians
+8771,19,Rubin Hermann,South Africa
+8805,19,Ottneil Baartman,South Africa
+8852,19,Mihlal Mpongwana,South Africa
+15269,312,Mohammed Aslam,Kuwait
+15271,312,Usmangani Ibrahim Patel,Kuwait
+15274,312,Ravija Sandaruwan,Kuwait
+15279,312,Shiraz Khan,Kuwait
+15280,312,Sayed Monib,Kuwait
+15303,312,Bilal Tahir,Kuwait
+15551,28,Ackeem Auguste,West Indies
+15629,315,Shayan Jahangir,United States Of America
+16284,3093,Habibur Rahman Sohan,Bangladesh A
+16498,272,Sultan Ahmad,United Arab Emirates
+16536,3886,Makoto Taniyama,Japan
+16559,3886,Alexander Patmore,Japan
+16565,3886,Kohei Kubota,Japan
+16606,3886,Tsuyoshi Takada,Japan
+17413,23,Neil Rock,Ireland
+17419,23,Tim Tector,Ireland
+17424,23,Graham Hume,Ireland
+17430,23,Conor Olphert,Ireland
+17432,23,Ross Adair,Ireland
+17898,4444,Bilal Sami,Afghanistan
+17910,78,Mohammad Akram,Afghanistan
+17911,78,Nangeyalia Kharote,Afghanistan
+17918,78,Abdullah Tarakhail,Afghanistan
+17919,4444,Mohammad Saleem Safi,Afghanistan
+17937,4444,Zubaid Akbari,Afghanistan A
+18206,22,Tom Hartley,England
+19012,283,Zeeshan Ali,Hong Kong
+19020,283,Ateeq Iqbal,Hong Kong
+19098,4,Pyla Avinash,Punjab Kings
+19124,283,Anas Khan,Hong Kong
+19125,283,Ayush Shukla,Hong Kong
+19132,341,Khurram Shehzad,Pakistan A
+19145,25,Aamer Jamal,Pakistan
+19147,72,Faraz Akram,Zimbabwe
+19307,27,Tharindu Rathnayake,Sri Lanka
+19309,27,Lahiru Udara,Sri Lanka A
+19312,27,Nuwan Thushara,Sri Lanka
+19315,27,Vijayakanth Viyaskanth,Sunrisers Hyderabad
+19316,27,Maheesh Theekshana,Sri Lanka
+19530,341,Shahnawaz Dhani,Pakistan
+19535,3093,Rejaur Rahman Raja,Bangladesh
+19714,7,Abishek Porel,Delhi Capitals
+19754,272,Raja Khan,United Arab Emirates
+19781,4,Mitchell Owen,Punjab Kings
+19892,23,Theo van Woerkom,Ireland
+19894,17,Mitchell Hay,New Zealand
+19902,24,Tim Pringle,Netherlands
+19969,341,Mubasir Khan,Pakistan A
+19998,3509,Rajvardhan Hangargekar,Chennai Super Kings
+20005,3508,Arshad Khan,Mumbai Indians
+20006,8,Ramandeep Singh,Mumbai Indians
+20023,3509,Karan Sharma,Lucknow Super Giants
+20077,3509,Yuvraj Chaudhary,Lucknow Super Giants
+20163,282,Aasif Sheikh,Nepal
+20175,282,Nandan Yadav,Nepal
+20229,25,Mohammad Ali,Pakistan
+20310,341,Ahmed Daniyal,Pakistan A
+20316,282,Shahab Alam,Nepal
+20327,25,Usman Khan,Pakistan
+20693,1,Kuldip Yadav,Rajasthan Royals
+20702,7,Tristan Stubbs,Mumbai Indians
+20704,25,Salman Mirza,Pakistan
+20802,3,Abdul Basith,Rajasthan Royals
+20894,1,Aman Khan,Kolkata Knight Riders
+20989,242,Vivrant Sharma,Sunrisers Hyderabad
+21182,315,Utkarsh Srivastava,United States Of America
+21196,283,Mohammad Waheed,Hong Kong
+21388,283,Martin Coetzee,Hong Kong
+21777,72,Tafadzwa Tsiga,Zimbabwe
+21780,72,Ernest Masuku,Zimbabwe
+21781,72,Clive Madande,Zimbabwe
+21784,72,Brad Evans,Zimbabwe
+21786,72,Tanaka Chivanga,Zimbabwe
+21787,72,Takudzwanashe Kaitano,Zimbabwe
+21790,72,Tashinga Musekiwa,Zimbabwe
+21791,72,J Gumbie,Zimbabwe
+21978,72,Amir Naqvi,Zimbabwe
+22134,72,Luke Jongwe,Zimbabwe
+22137,23,Fionn Hand,Ireland
+22187,24,Ryan Klein,Netherlands
+22188,24,Aryan Dutt,Netherlands
+22189,24,Musa Ahmad,Netherlands
+22471,23,Matthew Humphreys,Ireland
+22565,272,Muhammad Waseem,United Arab Emirates
+22920,17,Jacob Duffy,New Zealand
+23195,23,Gavin Hoey,Ireland
+23311,22,Jacob Bethell,England
+23408,242,Amit Kumar,Sunrisers Hyderabad
+23450,3508,Sai Sudharsan,Gujarat Titans
+23467,1,Gurjapneet Singh,Chennai Super Kings
+24017,72,Brian Bennett,Zimbabwe
+24217,24,Sebastiaan Braat,Netherlands
+24239,313,Rafiullah,Oman
+24243,313,Ubaid Ullah,Oman
+24245,313,Shoaib Khan,Oman
+24346,312,Mohamed Shafeeq,Kuwait
+24366,313,Kashyap Prajapati,Oman
+24370,313,Pruthvikumar Damubhai,Oman
+24372,313,Muzahir Raza,Oman
+24381,24,Shariz Ahmad,Netherlands
+24473,22,Sonny Baker,England
+24475,22,Rehan Ahmed,England
+24479,22,James Coles,England
+24489,315,Abhishek Paradkar,United States Of America
+24767,21,Ripon Mondol,Bangladesh
+24779,78,Ijaz Ahmadzai,Afghanistan
+24780,4444,Yama Arab,Afghanistan A
+24803,282,Gulshan Jha,Nepal
+24812,26,Chris Greaves,Scotland
+24887,72,Innocent Kaia,Zimbabwe
+24978,26,Jack Jarvis,Scotland
+24982,26,Charlie Tear,Scotland
+25011,23,Liam Mccarthy,Ireland
+25017,24,Olivier Elenbaas,Netherlands
+25030,341,Zaman Khan,Pakistan
+25048,8,Umran Malik,Sunrisers Hyderabad
+25091,313,Ayan Khan,Oman
+25128,19,Nqabayomzi Peter,South Africa
+25132,242,Praful Hinge,Sunrisers Hyderabad
+25138,18,Harsh Dubey,Sunrisers Hyderabad
+25139,3,Shubham Dubey,Rajasthan Royals
+25213,1,Dewald Brevis,Mumbai Indians
+25216,19,Andile Simelane,South Africa
+25231,313,Samay Shrivastava,Oman
+25341,3093,Mahfuzur Rabby,Bangladesh A
+25353,4444,Numan Shah,Afghanistan A
+25501,312,Meet Bhavsar,Kuwait
+25502,312,Adnan Idrees,Kuwait
+25507,312,Edson Silva,Kuwait
+25534,17,Chad Bowes,New Zealand
+25669,4,Priyansh Arya,Punjab Kings
+25679,242,Salil Arora,Sunrisers Hyderabad
+25809,315,Juanoy Drysdale,United States Of America
+26514,3674,Nimesh Vimukthi,Sri Lanka A
+26519,27,Janith Liyanage,Sri Lanka
+26530,27,Treveen Mathew,Sri Lanka A
+26646,272,Rahul Chopra,United Arab Emirates
+26663,3,Kwena Maphaka,Mumbai Indians
+26728,19,Jordan Hermann,South Africa
+26795,20,Joel Davies,Australia
+26830,3508,Nishant Kumar Sindhu,Chennai Super Kings
+26834,2,Raj Bawa,Punjab Kings
+26836,5,Vicky Ostwal,Delhi Capitals
+26839,25,Haseebullah Khan,Pakistan
+26843,25,Maaz Sadaqat,Pakistan A
+26845,341,Mehran Mumtaz,Pakistan A
+26848,341,Ghazi Ghouri,Pakistan A
+26854,3093,SM Meherob Hasan,Bangladesh A
+26858,3093,Ariful Islam,Bangladesh A
+26861,23,Reuben Wilson,Ireland
+26906,8,Angkrish Raghuvanshi,Kolkata Knight Riders
+26909,7,Yash Dhull,Delhi Capitals
+26911,4,Harnoor Pannu,Punjab Kings
+26913,222,Shaik Rasheed,Chennai Super Kings
+26916,315,Yasir Mohammad,United States Of America
+26922,313,Ashish Odedra,Oman
+26988,313,Jitenkumar Ramanandi,Oman
+27004,313,Hassnain Shah,Oman
+27057,313,Pratik Athavale,Oman
+27059,313,Karan Sonavale,Oman
+27071,313,Vinayak Shukla,Oman
+27137,313,Hammad Mirza,Oman
+27146,313,Imran Muhammad,Oman
+27259,3093,Jishan Alam,Bangladesh A
+27364,272,Simranjeet Kang,United Arab Emirates
+27373,272,Muhammad Farooq,United Arab Emirates
+27380,272,Harshit Kaushik,Kolkata Knight Riders
+27390,272,Matiullah Khan,United Arab Emirates
+27391,272,Vishnu Sukumaran,United Arab Emirates
+27460,272,Ali Naseer,United Arab Emirates
+27464,272,Aayan Afzal Khan,United Arab Emirates
+27465,272,Nilansh Keswani,United Arab Emirates
+27466,272,Dhruv Parashar,United Arab Emirates
+27469,272,Aryansh Sharma,United Arab Emirates
+27504,27,Dushan Hemantha,Sri Lanka A
+27516,25,Ihsanullah Ihsanullah,Pakistan
+27517,341,Yasir Khan,Pakistan A
+27743,24,DT Doram,Netherlands
+27956,8,Prashant Solanki,Chennai Super Kings
+27959,222,Hrithik Shokeen,Mumbai Indians
+27960,18,Mayank Yadav,Lucknow Super Giants
+27962,5,Saurav Chauhan,Royal Challengers Bengaluru
+27964,1,Anshul Kamboj,Mumbai Indians
+27970,3508,Gurnoor Brar,Punjab Kings
+27987,89,Rishiv Joshi,Canada
+28018,18,Ashok Sharma,Kolkata Knight Riders
+28021,8,Saurabh Dubey,Sunrisers Hyderabad
+28185,28,Kamil Pooran,West Indies
+28655,272,Muhammad Rohid,United Arab Emirates
+28664,272,Zahid Ali,United Arab Emirates
+28756,272,Haider Ali,United Arab Emirates
+28788,272,Tanish Suri,United Arab Emirates
+28908,72,Vincent Masekesa,Zimbabwe
+28911,72,John Masara,Zimbabwe
+28915,72,Trevor Gwandu,Zimbabwe
+28967,17,Tim Robinson,New Zealand
+28970,3508,Connor Esterhuizen,Gujarat Titans
+29066,1,Zakary Foulkes,New Zealand
+29075,282,Aadil Ansari,Nepal
+29080,272,Muhammad Khan,United Arab Emirates
+29558,272,Muhammad Arfan,United Arab Emirates
+29699,3886,Ibrahim Takahashi,Japan
+29706,3886,Wataru Miyauchi,Japan
+29709,3886,Reo Sakurano,Japan
+29833,78,Bashir Ahmad,Afghanistan
+29862,283,Ali Hassan,Hong Kong
+29888,18,Harshit Rana,Kolkata Knight Riders
+30925,26,Bradley Currie,Scotland
+30927,315,Saiteja Mukkamalla,United States Of America
+31107,312,Yasin Patel,Kuwait
+31205,2,Ruchit Ahir,Mumbai Indians
+31227,4,Vidhwath Kaverappa,Punjab Kings
+31513,272,Ethan Dsouza,United Arab Emirates
+31518,3509,Akshat Raghuwanshi,Lucknow Super Giants
+31529,2,Robin Minz,Gujarat Titans
+31835,311,Akshay Roopak Puri,Singapore
+31836,311,Aman Desai,Singapore
+32244,7,Tripurana Vijay,Delhi Capitals
+32399,89,Aaron Johnson,Canada
+32401,89,Akhil Kumar,Canada
+32705,78,Faridoon Dawoodzai,Afghanistan A
+32862,2,Allah Ghazanfar,Kolkata Knight Riders
+33009,22,John Turner,England
+33067,242,Ravichandran Smaran,Sunrisers Hyderabad
+33095,1,Macneil Noronha,Chennai Super Kings
+33114,27,Milan Rathnayake,Sri Lanka A
+33440,311,Adwitya Bhargava,Singapore
+33443,272,Sabir Ali,United Arab Emirates
+33675,341,Mohammad Naeem,Pakistan A
+33969,72,Tinotenda Maposa,Zimbabwe
+34466,25,Arafat Minhas,Pakistan
+34485,25,Sufiyan Muqeem,Pakistan
+34522,26,Brandon McMullen,Scotland
+34527,26,Jasper John Davidson,Scotland
+34543,283,Darsh Vora,Hong Kong
+34546,313,Aryan Bisht,Oman
+34880,341,Saad Masood,Pakistan A
+34910,4444,Hassan Eisakhil,Afghanistan A
+34928,3886,Kendel Fleming,Japan
+34929,3886,Lachlan Lake,Japan
+34957,22,Jafer Chohan,England
+34969,3508,Manav Suthar,Gujarat Titans
+34991,5,Rajan Kumar,Royal Challengers Bengaluru
+35071,3,Kunal Rathore,Rajasthan Royals
+35072,1,Ramakrishna Ghosh,Chennai Super Kings
+35102,313,Zikria Islam,Oman
+35120,313,Narayan Saishiv,Oman
+35122,313,Shah Faisal,Oman
+35133,313,Sufyan Yousuf,Oman
+35318,242,Sakib Hussain,Kolkata Knight Riders
+35506,28,Quentin Sampson,West Indies
+36328,5,Mangesh Yadav,Royal Challengers Bengaluru
+36551,28,Zishan Motara,West Indies
+36553,28,Jediah Blades,West Indies
+36981,5,Himanshu Sharma,Royal Challengers Bengaluru
+36982,5,Suyash Sharma,Kolkata Knight Riders
+36983,5,Mohit Rathee,Punjab Kings
+36984,2,Raghav Goyal,Mumbai Indians
+37052,18,Naman Dhir,Mumbai Indians
+37201,28,Jewel Andrew,West Indies
+37311,283,Shiv Mathur,Hong Kong
+37559,313,Nadeem Khan,Oman
+37572,313,Shafiq Jan,Oman
+37621,283,Rajab Hussain,Hong Kong
+37731,4,Musheer Khan,Punjab Kings
+37879,25,Khawaja Nafay,Pakistan
+37939,21,Nahid Rana,Bangladesh
+38044,20,Mahli Beardman,Australia
+38050,3674,Isitha Wijesundera,Sri Lanka A
+38855,21,Mohammad Saifuddin,Bangladesh
+39374,272,Muhammad Zohaib,United Arab Emirates
+39455,3093,Maruf Mridha,Bangladesh A
+39461,3093,Wasi Sddiquee,Bangladesh A
+39630,3674,Dinura Kalupahana,Sri Lanka A
+39637,3674,Garuka Sanketh,Sri Lanka A
+39638,3674,Vishen Halambage,Sri Lanka
+39640,27,Sineth Jayawardena,Sri Lanka
+39648,3674,Sohan de Livera,Sri Lanka A
+39657,27,Eshan Malinga,Sri Lanka A
+39991,89,Parveen Kumar,Canada
+41110,272,Mayank Kumar,United Arab Emirates
+41503,3,Yash Punja,Rajasthan Royals
+41509,272,Yayin Rai,United Arab Emirates
+41541,3886,Declan Suzuki,Japan
+41863,22,Josh Hull,England
+42548,272,Muhammad Jawadullah,United Arab Emirates
+42810,24,Noah Croes,Netherlands
+42811,24,Michael Levitt,Netherlands
+42845,3509,Arshin Kulkarni,Lucknow Super Giants
+43250,89,Dilpreet Singh Bajwa,Canada
+43774,4,Shivam Singh,Punjab Kings
+43798,3,Lhuan Pretorius,South Africa
+43917,2,Krish Bhagat,Mumbai Indians
+43965,3,Emanjot Singh Chahal,Rajasthan Royals
+43967,4,Vishwanath Singh,Punjab Kings
+43996,5,Vihaan Malhotra,Royal Challengers Bengaluru
+44293,23,Jordan Neill,Ireland
+44491,7,L Manvanth Kumar,Delhi Capitals
+45022,24,Cedric De Lange,Netherlands
+45381,2,PV Satyanarayan Raju,Mumbai Indians
+45457,24,Zach Lion Cachet,Netherlands
+45749,3509,Mukul Choudhary,Lucknow Super Giants
+45965,3509,Naman Tiwari,Lucknow Super Giants
+45966,1,Prashant Veer,Chennai Super Kings
+45989,5,Swastik Chikara,Delhi Capitals
+46066,18,Vipraj Nigam,Delhi Capitals
+46137,1,Kartik Sharma,Chennai Super Kings
+46378,24,Kyle Klein,Netherlands
+46929,1,Dian Forrester,Chennai Super Kings
+46982,341,Shahid Aziz,Pakistan A
+46996,341,Mohammad Faiq,Pakistan A
+47017,25,Mohammad Jnr,Pakistan A
+47050,28,Shamar Joseph,Lucknow Super Giants
+47291,313,Md Yousuf,Oman
+47314,4444,Wafiullah Tarakhil,Afghanistan A
+47370,242,Aniket Verma,Sunrisers Hyderabad
+47371,272,Zuhaid Zubair,United Arab Emirates
+47403,72,Newman Nyamhuri,Zimbabwe
+47523,3,Aman Rao Perala,Rajasthan Royals
+47542,3886,Charles Hinze,Japan
+47694,272,Omid Rahman,United Arab Emirates
+47724,25,Jahandad Khan,Pakistan
+48278,341,Ubaid Shah,Pakistan A
+48504,1,Ayush Mhatre,Chennai Super Kings
+48551,1,Aravelly Avanish,Chennai Super Kings
+48555,1,Andre Siddharth,Chennai Super Kings
+48557,3,Vignesh Puthur,Mumbai Indians
+48575,7,Sahil Parakh,Delhi Capitals
+48616,21,Abdul Saqlain,Bangladesh A
+48953,2,Danish Malewar,Mumbai Indians
+49003,25,Hasan Nawaz,Pakistan
+49027,17,Bevon Jacobs,Mumbai Indians
+49265,272,Ahmed Tariq,United Arab Emirates
+49268,272,Sohaib Khan,United Arab Emirates
+49665,4,Prince Choudhary,Punjab Kings
+49670,1,Vansh Bedi,Chennai Super Kings
+50062,19,Nqobani Mokoena,South Africa
+50284,18,Vaibhav Sooryavanshi,Rajasthan Royals
+52338,25,Usman Tariq,Pakistan
+53426,3093,Tofael Ahmed,Bangladesh A
+54404,3886,Benjamin Ito,Japan
+54476,3886,Jake Nairn,Japan
+54518,3886,Alester Fleming,Japan
+55747,23,Benjamin Calitz,Ireland
+56685,78,Abdullah Ahmadzai,Afghanistan
+56800,8,Shivam Shukla,Kolkata Knight Riders
+56817,242,Shivang Kumar,Sunrisers Hyderabad
+56830,7,Madhav Tiwari,Delhi Capitals
+57747,26,Charlie Cassell,Scotland
+58134,3509,Digvesh Rathi,Lucknow Super Giants
+58135,8,Tejasvi Dahiya,Kolkata Knight Riders
+58246,18,Prince Yadav,Lucknow Super Giants
+58727,5,Abhinandan Singh,Royal Challengers Bengaluru
+58864,4,Vishal Nishad,Punjab Kings
+59045,23,Jai Moondra,Ireland
+59853,24,Ben Fletcher,Netherlands
+60208,313,Shuaib Balushi,Oman
+60609,28,Navin Bidaisee,West Indies
+60689,3093,Zawad Abrar,Bangladesh A
+60700,3,Ravi Singh,Rajasthan Royals
+62526,242,Krains Fuletra,Sunrisers Hyderabad
+63136,3093,Shadhin Islam,Bangladesh A
+63497,242,RS Ambrish,Sunrisers Hyderabad
+64604,283,Kalhan Challu,Hong Kong
+65598,3886,Shoma Slater,Japan
+66103,78,Noor Rahman,Afghanistan A
+66513,242,Omkar Tarmale,Sunrisers Hyderabad
+66540,5,Kanishk Chouhan,Royal Challengers Bengaluru
+67036,3,Brijesh Sharma,Rajasthan Royals
+67864,23,Matt Hollard,Ireland
+68280,5,Satvik Deswal,Royal Challengers Bengaluru
+68410,4444,Rahmatullah Zadran,Afghanistan A
+69806,341,Mohammad Salman,Pakistan A
+71016,8,Daksh Kamra,Kolkata Knight Riders
+71311,2,Mohd Izhar,Mumbai Indians
+71727,25,Razaullah Razaullah,Pakistan

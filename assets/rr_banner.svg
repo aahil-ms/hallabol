@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Royal Pink to Royal Blue Gradients -->
+    <linearGradient id="rrBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020817"/>
+      <stop offset="25%" stop-color="#001a42"/>
+      <stop offset="55%" stop-color="#2a0832"/>
+      <stop offset="85%" stop-color="#4d0638"/>
+      <stop offset="100%" stop-color="#090314"/>
+    </linearGradient>
+    
+    <linearGradient id="pinkNeon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff007f"/>
+      <stop offset="50%" stop-color="#ea1a85"/>
+      <stop offset="100%" stop-color="#ff4b98"/>
+    </linearGradient>
+
+    <linearGradient id="goldRoyal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff5cc"/>
+      <stop offset="40%" stop-color="#ffd700"/>
+      <stop offset="80%" stop-color="#c99700"/>
+      <stop offset="100%" stop-color="#7a5c00"/>
+    </linearGradient>
+
+    <filter id="royalGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <radialGradient id="floodlightL" cx="15%" cy="0%" r="70%">
+      <stop offset="0%" stop-color="#ea1a85" stop-opacity="0.45"/>
+      <stop offset="60%" stop-color="#002b66" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="transparent" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="floodlightR" cx="85%" cy="0%" r="70%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#ea1a85" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="transparent" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Banner Background -->
+  <rect x="0" y="0" width="1200" height="360" rx="20" fill="url(#rrBg)"/>
+
+  <!-- Stadium Floodlight Glows -->
+  <rect x="0" y="0" width="1200" height="360" rx="20" fill="url(#floodlightL)"/>
+  <rect x="0" y="0" width="1200" height="360" rx="20" fill="url(#floodlightR)"/>
+
+  <!-- Geometric Stadium Lines -->
+  <g stroke="#ea1a85" stroke-width="1" opacity="0.18">
+    <line x1="0" y1="180" x2="1200" y2="180"/>
+    <circle cx="600" cy="180" r="160" fill="none"/>
+    <circle cx="600" cy="180" r="280" fill="none"/>
+    <polygon points="600,20 1100,360 100,360" fill="none" stroke-width="1"/>
+  </g>
+
+  <!-- Left Side: Royal Lion / Crown Emblem -->
+  <g transform="translate(60, 45)">
+    <!-- Crown Shield -->
+    <path d="M 70 30 L 130 30 L 150 100 L 100 170 L 50 100 Z" fill="url(#goldRoyal)" opacity="0.15"/>
+    <!-- Royal Crown -->
+    <path d="M 60 70 L 80 40 L 100 65 L 120 40 L 140 70 L 140 85 L 60 85 Z" fill="url(#goldRoyal)" filter="url(#royalGlow)"/>
+    <circle cx="100" cy="40" r="5" fill="#ffffff"/>
+    <circle cx="80" cy="38" r="4" fill="#ffd700"/>
+    <circle cx="120" cy="38" r="4" fill="#ffd700"/>
+
+    <!-- Two Crossed Bats -->
+    <line x1="45" y1="210" x2="155" y2="90" stroke="#f5d061" stroke-width="8" stroke-linecap="round"/>
+    <line x1="155" y1="210" x2="45" y2="90" stroke="#f5d061" stroke-width="8" stroke-linecap="round"/>
+
+    <!-- Cricket Ball in Center -->
+    <circle cx="100" cy="150" r="32" fill="#ea1a85" filter="url(#royalGlow)"/>
+    <path d="M 85 125 C 98 140, 98 160, 85 175" stroke="#ffffff" stroke-width="2.5" fill="none"/>
+  </g>
+
+  <!-- Center Text & Typography -->
+  <!-- Halla Bol Badge -->
+  <g transform="translate(250, 48)">
+    <rect x="0" y="0" width="170" height="28" rx="14" fill="#ea1a85" filter="url(#royalGlow)"/>
+    <text x="85" y="19" font-family="'Rajdhani', sans-serif" font-weight="800" font-size="14" fill="#ffffff" text-anchor="middle" letter-spacing="3">★ HALLA BOL ★</text>
+  </g>
+
+  <!-- Main Tournament Title -->
+  <text x="250" y="135" font-family="'Rajdhani', sans-serif" font-weight="900" font-size="54" fill="url(#pinkNeon)" letter-spacing="2">
+    RAJASTHAN ROYALS
+  </text>
+  <text x="250" y="188" font-family="'Rajdhani', sans-serif" font-weight="800" font-size="38" fill="url(#goldRoyal)" letter-spacing="1">
+    SUPERR SELECTOR TOURNAMENT
+  </text>
+
+  <!-- Tagline -->
+  <text x="250" y="228" font-family="'Poppins', sans-serif" font-weight="500" font-size="16" fill="#cbd5e1" letter-spacing="1">
+    ROYAL CLUTCH ANALYTICS • PRESSURE PERFORMANCE • AI DRAFT ENGINE
+  </text>
+
+  <!-- Stats Chips along bottom of center text -->
+  <g transform="translate(250, 260)">
+    <!-- Chip 1 -->
+    <rect x="0" y="0" width="160" height="42" rx="8" fill="rgba(234, 26, 133, 0.2)" stroke="#ea1a85" stroke-width="1.5"/>
+    <text x="80" y="18" font-family="'Poppins', sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">OFFICIAL DATA SPAN</text>
+    <text x="80" y="34" font-family="'Rajdhani', sans-serif" font-size="16" font-weight="800" fill="#ffd700" text-anchor="middle">2022 - 2026 IPL</text>
+
+    <!-- Chip 2 -->
+    <rect x="175" y="0" width="160" height="42" rx="8" fill="rgba(0, 43, 102, 0.4)" stroke="#00f2fe" stroke-width="1.5"/>
+    <text x="255" y="18" font-family="'Poppins', sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">BALLS ANALYSED</text>
+    <text x="255" y="34" font-family="'Rajdhani', sans-serif" font-size="16" font-weight="800" fill="#00f2fe" text-anchor="middle">200,999 DELIVERIES</text>
+
+    <!-- Chip 3 -->
+    <rect x="350" y="0" width="160" height="42" rx="8" fill="rgba(255, 215, 0, 0.15)" stroke="#ffd700" stroke-width="1.5"/>
+    <text x="430" y="18" font-family="'Poppins', sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">ML ACCURACY</text>
+    <text x="430" y="34" font-family="'Rajdhani', sans-serif" font-size="16" font-weight="800" fill="#ffd700" text-anchor="middle">R² = 0.97 (ELITE)</text>
+  </g>
+
+  <!-- Right Side: Majestic Trophy with Pink Floodlight Aura -->
+  <g transform="translate(980, 50)">
+    <circle cx="100" cy="120" r="90" fill="#ea1a85" opacity="0.25" filter="url(#royalGlow)"/>
+    <!-- Trophy Cup -->
+    <path d="M 45 40 L 155 40 C 155 140, 130 180, 100 185 C 70 180, 45 140, 45 40 Z" fill="url(#goldRoyal)" filter="url(#royalGlow)"/>
+    <!-- Handles -->
+    <path d="M 45 60 C 5 60, 5 150, 55 155" stroke="url(#goldRoyal)" stroke-width="10" fill="none"/>
+    <path d="M 155 60 C 195 60, 195 150, 145 155" stroke="url(#goldRoyal)" stroke-width="10" fill="none"/>
+    <!-- Stem and Base -->
+    <rect x="88" y="185" width="24" height="40" fill="url(#goldRoyal)"/>
+    <polygon points="55,225 145,225 160,265 40,265" fill="#001a42" stroke="#ffd700" stroke-width="2"/>
+    <text x="100" y="250" font-family="'Rajdhani', sans-serif" font-weight="800" font-size="13" fill="#ffd700" text-anchor="middle">RR ROYAL XI</text>
+  </g>
+
+  <!-- Outer Neon Border -->
+  <rect x="2" y="2" width="1196" height="356" rx="18" fill="none" stroke="#ea1a85" stroke-width="3" opacity="0.75" filter="url(#royalGlow)"/>
+</svg>
