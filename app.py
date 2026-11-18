@@ -816,22 +816,34 @@ elif menu == "🎛️ Live ML Formula Studio":
     <div style="margin-bottom:1.2rem;">
         <span class="halla-bol-badge">STRATEGY SANDBOX</span>
         <h1 class="rr-title" style="font-size:2.4rem;">Live ML Formula Studio</h1>
-        <p style="color:#94a3b8;">Customize the importance weights of key KPIs and watch the machine learning rankings recompute live!</p>
+        <p style="color:#94a3b8;">Customize the importance weights and minimum sample thresholds of key KPIs. Watch machine learning rankings and recommendations recompute live!</p>
     </div>
     """, unsafe_allow_html=True)
 
-    st.subheader("🏏 Batting Weight Configuration")
-    s1, s2, s3, s4 = st.columns(4)
-    with s1:
-        w_sr = st.slider("Strike Rate Weight", 5, 40, 20)
-    with s2:
-        w_avg = st.slider("Batting Avg Weight", 5, 40, 20)
-    with s3:
-        w_bnd = st.slider("Boundary % Weight", 5, 30, 15)
-    with s4:
-        w_dth = st.slider("Death Over SR Weight", 5, 30, 15)
+    # ── 1. BATTING FORMULA CONFIGURATION ───────────────────────────────────────
+    st.markdown("### 🏏 Batting Formula & Sample Thresholds")
+    
+    bf1, bf2 = st.columns([2, 5])
+    with bf1:
+        min_balls_bat = st.slider(
+            "Min Balls Faced (Sample Filter)", 
+            min_value=50, max_value=1200, value=500, step=25, 
+            key="formula_bat_min_balls",
+            help="Filters out small-sample anomalies (e.g. players with <500 balls) to isolate reliable clutch performers."
+        )
+    with bf2:
+        s1, s2, s3, s4 = st.columns(4)
+        with s1:
+            w_sr = st.slider("Strike Rate Weight", 5, 40, 26, key="formula_w_sr")
+        with s2:
+            w_avg = st.slider("Batting Avg Weight", 5, 40, 26, key="formula_w_avg")
+        with s3:
+            w_bnd = st.slider("Boundary % Weight", 5, 30, 16, key="formula_w_bnd")
+        with s4:
+            w_dth = st.slider("Death Over SR Weight", 5, 30, 22, key="formula_w_dth")
 
-    df_custom = bat.copy()
+    # Filter by minimum sample size BEFORE calculating scores
+    df_custom = bat[bat["balls_faced"] >= min_balls_bat].copy()
     sr_norm   = df_custom["strike_rate"].clip(0, 220) / 220
     avg_norm  = df_custom["batting_avg"].clip(0, 60) / 60
     bnd_norm  = df_custom["boundary_pct"].clip(0, 60) / 60
@@ -843,15 +855,137 @@ elif menu == "🎛️ Live ML Formula Studio":
     ).round(2)
 
     top10_custom = df_custom.nlargest(10, "custom_score")[
-        ["player_name", "team_name", "total_runs", "strike_rate", "batting_avg", "sr_death", "custom_score"]
+        ["player_name", "team_name", "total_runs", "balls_faced", "strike_rate", "batting_avg", "sr_death", "custom_score"]
     ].reset_index(drop=True)
     top10_custom.index += 1
 
-    st.markdown("### 🏆 Recomputed Top 10 Batters (Custom Philosophy)")
+    st.markdown(f"##### 🏆 Recomputed Top 10 Batters (Qualified: {len(df_custom)} Players with ≥ {min_balls_bat} Balls)")
     st.dataframe(
         safe_styled_df(top10_custom, ["custom_score"], "RdPu"),
         use_container_width=True
     )
+
+    st.markdown("<hr style='border-color:rgba(234,26,133,0.3); margin:2rem 0;'>", unsafe_allow_html=True)
+
+    # ── 2. BOWLING FORMULA CONFIGURATION ───────────────────────────────────────
+    st.markdown("### ⚾ Bowling Formula & Sample Thresholds")
+
+    bw1, bw2 = st.columns([2, 5])
+    with bw1:
+        min_overs_bow = st.slider(
+            "Min Overs Bowled (Sample Filter)", 
+            min_value=5, max_value=150, value=30, step=5, 
+            key="formula_bow_min_overs",
+            help="Filters out part-timers and small sample sizes to isolate proven tournament wicket-takers."
+        )
+    with bw2:
+        ws1, ws2, ws3, ws4, ws5 = st.columns(5)
+        with ws1:
+            w_econ = st.slider("Economy Weight", 5, 40, 25, key="formula_w_econ")
+        with ws2:
+            w_bavg = st.slider("Bowling Avg Weight", 5, 40, 25, key="formula_w_bavg")
+        with ws3:
+            w_dot = st.slider("Dot Ball % Weight", 5, 30, 20, key="formula_w_dot")
+        with ws4:
+            w_dth_econ = st.slider("Death Econ Weight", 5, 30, 20, key="formula_w_dth_econ")
+        with ws5:
+            w_wkts = st.slider("Wickets Weight", 5, 30, 10, key="formula_w_wkts")
+
+    # Filter by minimum sample size (balls bowled = overs * 6)
+    min_balls_bow = min_overs_bow * 6
+    df_bow_custom = bow[bow["balls_bowled"] >= min_balls_bow].copy()
+    df_bow_custom["overs"] = (
+        (df_bow_custom["balls_bowled"] // 6) + (df_bow_custom["balls_bowled"] % 6) / 10
+    ).round(1)
+
+    # Inverted normalisation for run-prevention (lower is superior)
+    ec_norm_b    = (12 - df_bow_custom["economy"].clip(4, 12)) / 8
+    ba_norm_b    = (50 - df_bow_custom["bowling_avg"].clip(10, 50)) / 40
+    dot_norm_b   = df_bow_custom["dot_ball_pct"].clip(15, 60) / 60
+    dth_econ_b   = (16 - df_bow_custom["econ_death"].clip(6, 16)) / 10
+    wkt_norm_b   = df_bow_custom["wickets"].clip(0, 50) / 50
+
+    total_w_bow = w_econ + w_bavg + w_dot + w_dth_econ + w_wkts
+    df_bow_custom["custom_score"] = (
+        (ec_norm_b * w_econ + ba_norm_b * w_bavg + dot_norm_b * w_dot + dth_econ_b * w_dth_econ + wkt_norm_b * w_wkts) 
+        / total_w_bow * 100
+    ).round(2)
+
+    top10_bow_custom = df_bow_custom.nlargest(10, "custom_score")[
+        ["player_name", "team_name", "wickets", "overs", "economy", "bowling_avg", "dot_ball_pct", "econ_death", "custom_score"]
+    ].reset_index(drop=True)
+    top10_bow_custom.index += 1
+
+    st.markdown(f"##### 🏆 Recomputed Top 10 Bowlers (Qualified: {len(df_bow_custom)} Players with ≥ {min_overs_bow} Overs)")
+    st.dataframe(
+        safe_styled_df(top10_bow_custom, ["custom_score"], "YlGnBu"),
+        use_container_width=True
+    )
+
+    st.markdown("<br>", unsafe_allow_html=True)
+
+    # ── 3. AI TACTICAL RECOMMENDATIONS FOR SELECTION (BATTER & BOWLER) ─────────
+    st.markdown("### 👑 AI Tactical Selection Recommendations")
+    
+    rec_c1, rec_c2 = st.columns(2)
+    
+    if len(top10_custom) > 0:
+        top_bat = top10_custom.iloc[0]
+        init_b = "".join([n[0] for n in top_bat["player_name"].split()[:2]])
+        with rec_c1:
+            st.markdown(f"""
+            <div class="glass-card" style="border: 2px solid #ea1a85; background: linear-gradient(135deg, rgba(38,8,48,0.92) 0%, rgba(13,22,54,0.85) 100%); padding:1.2rem;">
+                <div style="font-size:0.75rem; letter-spacing:2px; color:#ffd700; font-weight:800; margin-bottom:6px;">
+                    🏏 #1 RECOMMENDED BATTER FOR SELECTION
+                </div>
+                <div style="display:flex; align-items:center; gap:16px; margin-bottom:12px;">
+                    <div class="player-avatar" style="border-color:#ea1a85; font-size:1.4rem;">{init_b}</div>
+                    <div>
+                        <h3 style="margin:0; font-size:1.6rem; color:#ffffff;">{top_bat['player_name']}</h3>
+                        <div style="color:#ffd700; font-size:0.85rem; font-weight:600;">{top_bat['team_name']} • Qualified Sample: {int(top_bat['balls_faced'])} balls</div>
+                    </div>
+                </div>
+                <div style="display:flex; justify-content:space-between; background:rgba(0,0,0,0.3); border-radius:8px; padding:0.6rem 0.9rem; margin-bottom:10px;">
+                    <div><span style="color:#94a3b8; font-size:0.75rem;">Runs:</span> <b style="color:#fff;">{int(top_bat['total_runs'])}</b></div>
+                    <div><span style="color:#94a3b8; font-size:0.75rem;">SR:</span> <b style="color:#ffd700;">{top_bat['strike_rate']}</b></div>
+                    <div><span style="color:#94a3b8; font-size:0.75rem;">Avg:</span> <b style="color:#fff;">{top_bat['batting_avg']}</b></div>
+                    <div><span style="color:#94a3b8; font-size:0.75rem;">Death SR:</span> <b style="color:#ea1a85;">{top_bat['sr_death']}</b></div>
+                </div>
+                <div style="display:flex; align-items:center; justify-content:space-between;">
+                    <div style="font-size:0.8rem; color:#cbd5e1;">Tactical Role: <b>Elite Clutch Anchor / Finisher</b></div>
+                    <div class="superr-badge" style="background:linear-gradient(90deg, #ea1a85, #ffd700); color:#0b0f19;">{top_bat['custom_score']:.1f}</div>
+                </div>
+            </div>
+            """, unsafe_allow_html=True)
+
+    if len(top10_bow_custom) > 0:
+        top_bow = top10_bow_custom.iloc[0]
+        init_w = "".join([n[0] for n in top_bow["player_name"].split()[:2]])
+        with rec_c2:
+            st.markdown(f"""
+            <div class="glass-card" style="border: 2px solid #00f2fe; background: linear-gradient(135deg, rgba(8,30,54,0.92) 0%, rgba(38,8,48,0.85) 100%); padding:1.2rem;">
+                <div style="font-size:0.75rem; letter-spacing:2px; color:#00f2fe; font-weight:800; margin-bottom:6px;">
+                    ⚾ #1 RECOMMENDED BOWLER FOR SELECTION
+                </div>
+                <div style="display:flex; align-items:center; gap:16px; margin-bottom:12px;">
+                    <div class="player-avatar" style="background:linear-gradient(135deg, #00f2fe, #ea1a85); border-color:#00f2fe; font-size:1.4rem;">{init_w}</div>
+                    <div>
+                        <h3 style="margin:0; font-size:1.6rem; color:#ffffff;">{top_bow['player_name']}</h3>
+                        <div style="color:#00f2fe; font-size:0.85rem; font-weight:600;">{top_bow['team_name']} • Qualified Sample: {top_bow['overs']} overs</div>
+                    </div>
+                </div>
+                <div style="display:flex; justify-content:space-between; background:rgba(0,0,0,0.3); border-radius:8px; padding:0.6rem 0.9rem; margin-bottom:10px;">
+                    <div><span style="color:#94a3b8; font-size:0.75rem;">Wickets:</span> <b style="color:#fff;">{int(top_bow['wickets'])}</b></div>
+                    <div><span style="color:#94a3b8; font-size:0.75rem;">Economy:</span> <b style="color:#00f2fe;">{top_bow['economy']}</b></div>
+                    <div><span style="color:#94a3b8; font-size:0.75rem;">Dot %:</span> <b style="color:#ffd700;">{top_bow['dot_ball_pct']}%</b></div>
+                    <div><span style="color:#94a3b8; font-size:0.75rem;">Death Econ:</span> <b style="color:#ea1a85;">{top_bow['econ_death']}</b></div>
+                </div>
+                <div style="display:flex; align-items:center; justify-content:space-between;">
+                    <div style="font-size:0.8rem; color:#cbd5e1;">Tactical Role: <b>High-Impact Choke & Death Specialist</b></div>
+                    <div class="superr-badge" style="background:linear-gradient(90deg, #00f2fe, #ea1a85); color:#ffffff;">{top_bow['custom_score']:.1f}</div>
+                </div>
+            </div>
+            """, unsafe_allow_html=True)
 
 
 # ════════════════════════════════════════════════════════════════════════════════
